@@ -4,3 +4,80 @@
     --verde:#49a09d;
     --lilas:#5f2c82;
 }
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/*Configuração Geral MOBILE FIRST*/
+ body{
+    background-color: var(--lilas);
+    height: 100vh;
+    position: relative;
+ }
+
+ main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+ }
+
+ #login{
+    width: 80vw;
+    height: 80vh;
+    border-radius:20px;
+    background-color: white;
+ }
+
+#imagem{
+    height: 200px;
+    background: var(--lilas) url(../imagens/login_img.jpg) left center no-repeat;
+    background-size: cover;
+}
+
+#formulario{
+    text-align: justify;
+    padding: 10px;
+}
+
+#formulario h1{
+    text-align: center;
+}
+
+#formulario .campo{
+    margin: 5px;
+    background-color: var(--lilas);
+    color: white;
+    border-radius: 10px;
+}
+
+.campo span{
+    font-size: 1.9em;
+    width: 40px;
+    padding: 5px
+}
+
+
+.campo input{
+    background-color: #94cfcd;
+    width: 85%;
+    border-radius: 10px;
+    padding: 4px;
+    transform: translateY(-10px);
+}
+
+.finalizaçao{
+    width: 75vw;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#Enviar{
+    background-color: var(--verde);
+    color: white;
+}  
