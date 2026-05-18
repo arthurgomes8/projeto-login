@@ -77,3 +77,11 @@
     background-color: var(--verde);
     color: white;
 }  
+
+#Enviar:hover{
+    background-color:#2e6462 ;
+}
+
+#Esqueci:hover{
+    background-color: #94cfcd;
+}

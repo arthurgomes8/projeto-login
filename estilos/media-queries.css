@@ -13,10 +13,21 @@
     }
     #imagem{
         height: 285px;
+        width: 200px;
         overflow-y: hidden;
+
+    }
+    #formulario{
+        width: 440px;
+        transform: translate(-130px);
+    }
+    .campo{
+        width: 50vw;
+    }
+    .campo input{
+        padding: 10px;
     }
     .finalizaçao{
-        margin-bottom: 0px;
-        width: 35vw;
+        width: 50vw;
     }
 }
