@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+/*Configuração para TABLETS*/
+
+@media screen and (min-width:768px) and (max-width:992px) {
+    body{
+        background-image: linear-gradient(to bottom,var(--lilas),var(--verde));
+    }
+    #login{
+        transition-duration: 0.5s;
+        height: 45vh;
+        columns: 2;
+    }
+    #imagem{
+        height: 285px;
+        overflow-y: hidden;
+    }
+    .finalizaçao{
+        margin-bottom: 0px;
+        width: 35vw;
+    }
+}
