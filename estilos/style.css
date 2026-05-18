@@ -54,19 +54,15 @@
     border-radius: 10px;
 }
 
-.campo span{
-    font-size: 1.9em;
-    width: 40px;
-    padding: 5px
-}
-
-
 .campo input{
     background-color: #94cfcd;
     width: 85%;
     border-radius: 10px;
     padding: 4px;
-    transform: translateY(-10px);
+}
+
+.campo span{
+    margin-left: 5px;
 }
 
 .finalizaçao{
