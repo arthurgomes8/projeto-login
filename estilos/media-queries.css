@@ -8,26 +8,45 @@
     }
     #login{
         transition-duration: 0.5s;
-        height: 45vh;
-        columns: 2;
+        height: 50vh;
+        width: 90vw;
     }
     #imagem{
-        height: 285px;
-        width: 200px;
-        overflow-y: hidden;
-
+        float: left;
+        width: 30%;
+        height: 100%;
     }
     #formulario{
-        width: 440px;
-        transform: translate(-130px);
-    }
-    .campo{
-        width: 50vw;
-    }
-    .campo input{
-        padding: 10px;
+        float: right;
+        width: 70%;
     }
     .finalizaçao{
-        width: 50vw;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:992px) {
+    body{
+        background-image: linear-gradient(to bottom,var(--lilas),var(--verde));
+    }
+    #login{
+        transition-duration: 0.5s;
+        width: 950px;
+        height: 50vh;
+    }
+    #imagem{
+        float: right;
+        width: 50%;
+        height: 100%;
+    }
+    #formulario{
+        float: left;
+        width: 50%;
+    }
+    #formulario h1,p{
+        margin-bottom: 20px;
+    }
+    .finalizaçao{
+        width: 100%;
     }
 }
