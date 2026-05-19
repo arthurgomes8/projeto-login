@@ -16,14 +16,10 @@
  body{
     background-color: var(--lilas);
     height: 100vh;
-    position: relative;
- }
-
- main{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
  }
 
  #login{
